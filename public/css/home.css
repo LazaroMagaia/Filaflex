@@ -1,0 +1,50 @@
+.bg-custom {
+    background-image: url('/images/inatro.png');
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Preto com 40% de opacidade */
+    z-index: 1;
+}
+
+.bg-secundary {
+    background-image: url('/images/banner_secundario.png');
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Preto com 40% de opacidade */
+    z-index: 1;
+}
+
+.bg-terciary {
+    background-image: url('/images/company.png');
+}
+.bg-service
+{
+    background-image: url('/images/our_service.png');
+}
+.bg-career
+{
+    background-image: url('/images/career.png');
+
+}
+.bg-contact
+{
+    background-image: url('/images/contact.png');
+}
+.bg-schedule
+{
+    background-image: url('/images/schedule.png');
+}
