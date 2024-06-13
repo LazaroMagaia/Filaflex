@@ -28,53 +28,72 @@
             </p>
         </div>
         <div class="grid grid-cols-12 gap-6 pt-10">
-            <div class="col-span-12 md:col-span-3 lg:col-span-4 border-[1px] border-[#167FFC] p-4">
-                <div class="flex flex-col justify-center items-center">
-                    <img src="{{asset('images/mission.svg')}}" class="w-[60px]" alt="">
+            <div class="col-span-12 md:col-span-3 lg:col-span-4 p-4">
+                <div class="flex flex-col items-center border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[300px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-solid fa-bullseye text-5xl"></i>
+                        </div>
                     <!--<div class="h-1 bg-[#167FFC] rounded-md my-4 w-16 "></div>-->
                     <h1 class="text-2xl font-bold py-2">Nossa missão</h1>
                     <ul>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Fornecer tempo de lazer</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Fornecer segurança</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Fornecer status</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Fornecer satisfação</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Fornecer tempo de lazer</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Fornecer segurança</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Fornecer status</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Fornecer satisfação</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="col-span-12 md:col-span-3 lg:col-span-4 border-[1px] border-[#167FFC] p-4">
-                <div class="flex flex-col justify-center items-center">
-                    <img src="{{asset('images/Lamp.svg')}}" class="w-[60px]" alt="">
+            <div class="col-span-12 md:col-span-3 lg:col-span-4 p-4">
+                <div class="flex flex-col items-center border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[300px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-regular fa-lightbulb text-5xl"></i>
+                        </div>
                     <!--<div class="h-1 bg-[#167FFC] rounded-md my-4 w-16 "></div>-->
                     <h1 class="text-2xl font-bold py-2">Nossa visão</h1>
                     <ul>
-                        <li class="flex items-start"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Liderar no mercado nacional gestão de tempo nas filas
+                    <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Liderar no mercado nacional gestão de tempo nas filas
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="col-span-12 md:col-span-3 lg:col-span-4 border-[1px] border-[#167FFC] p-4">
-                <div class="flex flex-col justify-center items-center">
-                    <img src="{{asset('images/Value.svg')}}" class="w-[60px]" alt="">
+            <div class="col-span-12 md:col-span-3 lg:col-span-4 p-4">
+                <div class="flex flex-col items-center border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[300px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-solid fa-medal text-5xl"></i>
+                        </div>
                     <!--<div class="h-1 bg-[#167FFC] rounded-md my-4 w-16 "></div>-->
-                    <h1>Nossos valores</h1>
+                    <h1 class="text-2xl font-bold py-2">Nossos valores</h1>
                     <ul>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Inovação</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Eficiência</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Qualidade</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Sustentabilidade</li>
-                        <li class="flex items-center"><img src="{{asset('images/arrow.svg')}}" alt=""> 
-                        Compromisso</li>
+                    <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Inovação</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Eficiência</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Qualidade</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Sustentabilidade</li>
+                        <li class="flex items-center gap-2"><div class="icon-home">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>Compromisso</li>
                     </ul>
                 </div>
             </div>

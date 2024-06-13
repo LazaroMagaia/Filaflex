@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FrontPagesController;
+use App\Http\Controllers\{
+    FrontPagesController,
+    NewsletterController,
+    ContactController
+};
 
 
 Route::get('/', [FrontPagesController::class, 'home'])->name('frontend.home');
@@ -16,3 +20,6 @@ Route::get('/contact', [FrontPagesController::class, 'contact'])->name('frontend
 
 Route::get('/schedule_service', [FrontPagesController::class, 'schedule_service'])->name('frontend.schedule_service');
 
+Route::post('/Newsletter/store', [NewsletterController::class, 'store'])->name('frontend.newslleter.store');
+
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');

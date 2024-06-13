@@ -50,49 +50,61 @@
             <div class="h-1 bg-[#167FFC] rounded-md my-4 w-16 "></div>
         </div>
 
-            <!--- SINGLE VANTAGEM --->
-            <div>
-                <div class="container mx-auto py-10">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <div class="flex flex-col items-center justify-center border-2 border-[#167FFC] p-4 h-[250px]">
-                            <img src="{{ asset('images/schedule.svg') }}" alt="Qualidade">
-                            <h2 class="text-xl font-bold py-2 text-center">Agendamento Online</h2>
-                            <p class="text-center">
-                                Marque uma fila de forma antecipada online através do Whatsapp
-                            </p>
+        <!--- SINGLE VANTAGEM --->
+        <div>
+            <div class="container mx-auto py-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="flex flex-col items-center  border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[250px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-regular fa-calendar-days text-5xl"></i>
                         </div>
-                        <!-- col -->
-                    
-                        <div class="flex flex-col items-center justify-center border-2 border-[#167FFC] p-4 h-[250px]">
-                            <img src="{{ asset('images/cost.svg') }}" alt="Qualidade" >
-                            <h2 class="text-xl font-bold py-2 text-center">Preços acessíveis</h2>
-                            <p class="text-center">
-                                Disponibilizamos uma tabela de preços ajustada aos serviços prestados, trazendo
-                                os melhores preços promocionais, aliado a um serviço de qualidade
-                            </p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="flex flex-col items-center justify-center border-2 border-[#167FFC] p-4 h-[250px]">
-                            <img src="{{ asset('images/Secure.svg') }}" alt="Qualidade">
-                            <h2 class="text-xl font-bold py-2 text-center">Segurança</h2>
-                            <p class="text-center">
-                                Garantimos segurança e satisfação aos nossos clientes
-                            </p>
-                        </div>
-                        <!-- col -->
-
-                        <div class="flex flex-col items-center justify-center border-2 border-[#167FFC] p-4 h-[250px]">
-                            <img src="{{ asset('images/worker.svg') }}" alt="Qualidade">
-                            <h2 class="text-xl font-bold py-2 text-center">Agentes sempre disponíveis</h2>
-                            <p class="text-center">
-                                Dispomos de agentes agéis e responsáveis em toda cidade de Maputo;
-                            </p>
-                        </div>
-                        <!-- col -->
+                        <h2 class="text-xl font-bold py-2 text-center">Agendamento Online</h2>
+                        <p class="text-center">
+                            Marque uma fila de forma antecipada online através do Whatsapp
+                        </p>
                     </div>
+                    <!-- col -->
+                
+                    <div class="flex flex-col items-center border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[250px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-solid fa-receipt text-5xl"></i>
+                        </div>
+                        <h2 class="text-xl font-bold py-2 text-center">Preços acessíveis</h2>
+                        <p class="text-center">
+                            Disponibilizamos uma tabela de preços ajustada aos serviços prestados, trazendo
+                            os melhores preços promocionais, aliado a um serviço de qualidade
+                        </p>
+                    </div>
+                    <!-- col -->
+
+                    <div class="flex flex-col items-center  border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[250px] geral-vantagens">
+                        <div class="icon-home">
+                            <i class="fa-solid fa-lock text-5xl"></i>
+                        </div>
+                        <h2 class="text-xl font-bold py-2 text-center">Segurança</h2>
+                        <p class="text-center">
+                            Garantimos segurança e satisfação aos nossos clientes
+                        </p>
+                    </div>
+                    <!-- col -->
+
+                    <div class="flex flex-col items-center  border-2 border-[#167FFC]
+                        hover:bg-[#167FFC] hover:text-white p-4 h-[250px] geral-vantagens">
+                        <div class="icon-home">
+                        <i class="fa-solid fa-user-shield text-5xl"></i>
+                        </div>
+                        <h2 class="text-xl font-bold py-2 text-center">Agentes sempre disponíveis</h2>
+                        <p class="text-center">
+                            Dispomos de agentes agéis e responsáveis em toda cidade de Maputo;
+                        </p>
+                    </div>
+                    <!-- col -->
                 </div>
             </div>
+        </div>
     </div>
 
     <!--        SECOND BANNER          -->   
@@ -113,7 +125,8 @@
         </div>
         <!--- SINGLE PARTNER --->
         <div class="flex flex-wrap justify-center items-center gap-20 py-10">
-            <img src="{{asset('images/bci_partiner.png')}}" alt="{{asset('images/bci_partiner.png')}}">
+            <img src="{{asset('images/bci_partiner.png')}}" 
+                alt="{{asset('images/bci_partiner.png')}}">
             <img src="{{asset('images/bancomoz.png')}}" alt="{{asset('images/bancomoz.png')}}">
             <img src="{{asset('images/MilleniumBim.png')}}" alt="{{asset('images/MilleniumBim.png')}}">
             <img src="{{asset('images/Aeroporto.png')}}" alt="{{asset('images/Aeroporto.png')}}">

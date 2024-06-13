@@ -47,10 +47,17 @@
                 </p>
             </div>
             <div class="col-span-12 md:col-span-5">
-                <form class="flex flex-col mt-5">
-                    <input type="text" class="h-[40px] w-full px-2 outline-0 focus:outline-0" 
-                    placeholder="Anything"/>
-                    <button class=" bg-[#11152B] w-[120px] h-[40px] mt-5">Enviar</button>
+                <h1 class="text-1xl font-bold">Newsletter</h1>
+                <div class="h-1 bg-[#2DFF0B] rounded-md my-4 w-16 "></div>
+                <p>Mantenha-se atualizado com as últimas notícias e atualizações sobre a 
+                    Filaflex, subscrevendo-se com seu de e-mail.
+                </p>
+                <form class="flex flex-col mt-5" action="{{route('frontend.newslleter.store')}}"
+                    method="POST">
+                    @csrf
+                    <input type="text" name="email" class="h-[40px] w-full px-2 outline-0 focus:outline-0
+                    text-black"  placeholder="Seu melhor email"/>
+                    <button type="submit" class=" bg-[#11152B] w-[120px] h-[40px] mt-5">Enviar</button>
                 </form>
             </div>
             <div class="col-span-2">

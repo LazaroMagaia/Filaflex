@@ -48,3 +48,25 @@
 {
     background-image: url('/images/schedule.png');
 }
+
+.geral-vantagens:hover .icon-home i
+{
+    background-color: #167ffc!important;
+    color: white!important;
+}
+.icon-home i
+{
+    color: #167ffc!important;
+}
+
+
+.flex-col-hover:hover a.button-servico
+{
+    display: block;
+    background-color: white;
+    color: #167ffc;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

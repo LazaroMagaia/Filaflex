@@ -17,12 +17,13 @@
     <div class="form bg-[#11152B] py-10">
     <div class="grid grid-cols-12 gap-6 pt-10">
             <div class="col-span-12 md:col-span-6 p-4">
-              <form>
-                <input type="text" placeholder="Nome" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
-                <input type="number" placeholder="Contacto" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
-                <input type="email" placeholder="Email" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
-                <input type="text" placeholder="assunto" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
-                <textarea name="" id="" class="w-full h-[250px] px-2 outline-0 focus:outline-0" placeholder="Mensagem" 
+            <form action="{{ route('contact.send') }}" method="POST">
+            @csrf
+                <input type="text" placeholder="Nome" name="name" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
+                <input type="number" placeholder="Contacto" name="contact" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
+                <input type="email" placeholder="Email" name="email" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
+                <input type="text" placeholder="assunto" name="subject" class="w-full h-[40px] my-2 px-2 outline-0 focus:outline-0">
+                <textarea name="message" id="" class="w-full h-[250px] px-2 outline-0 focus:outline-0" placeholder="Mensagem" 
                     class="my-2"></textarea>
 
                 <button type="submit" class="border-2 border-[#167FFC] my-5 
