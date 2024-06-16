@@ -48,7 +48,7 @@
                                 E diversos...
                             </li>
                         </ul>
-                        <a href="{{route('frontend.schedule_service')}}" class="hidden button-servico text-center">Solicitar Serviço</a>
+                        <a href="{{route('frontend.schedule_service',['service' => 'Filas'])}}" class="hidden button-servico text-center">Solicitar Serviço</a>
                     </div>
                 </div>
                 <!-- col -->
@@ -78,7 +78,8 @@
                             <li class="flex items-start gap-5 py-1"><img src="{{asset('images/Order.svg')}}" alt=""> 
                             Entrega de pequenas encomendas</li>
                         </ul>
-                        <a href="{{route('frontend.schedule_service')}}" class="hidden button-servico text-center">Solicitar Serviço</a>
+                        <a href="{{route('frontend.schedule_service',['service' => 'Delivery'])}}"
+                         class="hidden button-servico text-center">Solicitar Serviço</a>
                     </div>
                 </div>
 

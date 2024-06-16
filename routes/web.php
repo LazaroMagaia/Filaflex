@@ -23,3 +23,5 @@ Route::get('/schedule_service', [FrontPagesController::class, 'schedule_service'
 Route::post('/Newsletter/store', [NewsletterController::class, 'store'])->name('frontend.newslleter.store');
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+
+Route::post('/schedule/send', [ContactController::class, 'sendSchedule'])->name('Schedule.send');

@@ -15,7 +15,7 @@
                 Nós te ajudamos a economizar o seu tempo na fila e a alocá-lo em actividades produtivas
             </p>
             <div class="mt-3">
-                <a href="" class="py-2 px-2 bg-[#4E8AFA] hover:bg-[#3266c7] rounded-md">Agendar fila</a>
+                <a href="{{route('frontend.schedule_service',['service' => 'Filas'])}}" class="py-2 px-2 bg-[#4E8AFA] hover:bg-[#3266c7] rounded-md">Agendar fila</a>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
                         no sector de filas e pequenas entregas.
                     </p>
                     <div class="mt-3">
-                    <a href="" class="py-2 px-2 bg-[#4E8AFA] hover:bg-[#3266c7] rounded-md text-white">Saber mais</a>
+                    <a href="{{route('frontend.about')}}" class="py-2 px-2 bg-[#4E8AFA] hover:bg-[#3266c7] rounded-md text-white">Saber mais</a>
                     </div>
             </div>
             <div class="aspect-w-16 aspect-h-9 h-[250px] p-2">
